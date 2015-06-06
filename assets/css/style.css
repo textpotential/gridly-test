@@ -1525,18 +1525,23 @@ ul.icons-ul > li .icon-li {
 /* Set viewport to device width for responsive view */
 @-webkit-viewport {
   width: device-width;
+  initial-scale: 1;
 }
 @-moz-viewport {
   width: device-width;
+  initial-scale: 1;
 }
 @-ms-viewport {
   width: device-width;
+  initial-scale: 1;
 }
 @-o-viewport {
   width: device-width;
+  initial-scale: 1;
 }
 @viewport {
   width: device-width;
+  initial-scale: 1;
 }
 * {
   -ms-box-sizing: border-box;
