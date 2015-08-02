@@ -2304,7 +2304,7 @@ hr.large {
 .search {
   float: right;
   width: 50%;
-  vertical-align: middle;
+  margin-top: 80px;
 }
 .post-next a,
 .post-prev a {
