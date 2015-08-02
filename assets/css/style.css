@@ -2301,6 +2301,9 @@ hr.large {
 .social-icons a span {
   font-size: 0;
 }
+.search {
+  float: right;
+}
 .post-next a,
 .post-prev a {
   -webkit-transition: none;
