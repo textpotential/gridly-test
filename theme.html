@@ -45,22 +45,7 @@
           <div class="logo">
             <h1><a href="/" rel="home">{{ site.name }}</a></h1>
           </div>
-	   <div class="search">
-		<script>
-  (function() {
-    var cx = '016342030456480702566:pvh9gyhiaoa';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-	   </div>
-          <nav id="nav">
+	   <nav id="nav">
             <ul>
               <li><a href="/">Home</a></li>
               {% if pages %}
@@ -113,6 +98,22 @@
             </li>
           </ul>
         </div>
+<div class="search">
+		<script>
+  (function() {
+    var cx = '016342030456480702566:pvh9gyhiaoa';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>          
+
       </header>
 
       {% if is_home or is_tag %}
