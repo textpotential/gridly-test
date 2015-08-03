@@ -2301,10 +2301,11 @@ hr.large {
 .social-icons a span {
   font-size: 0;
 }
+.social-search {
+float: right;
+}
 .search {
-  float: right;
   width: 50%;
-  display: inline-block;
 }
 .post-next a,
 .post-prev a {
