@@ -47,7 +47,7 @@
           </div>
 	   <nav id="nav">
             <ul>
-              <li><a href="/">Home</a></li>
+              <li><a href="/">home</a></li>
               {% if pages %}
               {% for page in pages %}
               <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
@@ -56,6 +56,7 @@
             </ul>
           </nav>
         </div>
+	<div class="social-search">
         <div class="social-icons">
           <ul>
             {% if site.twitter %}
@@ -113,7 +114,7 @@
 </script>
 <gcse:search></gcse:search>
 </div>          
-
+</div>
       </header>
 
       {% if is_home or is_tag %}
