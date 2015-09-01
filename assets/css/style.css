@@ -2269,6 +2269,7 @@ hr.large {
   margin-top: 14px;
   margin-top: 0.875rem;
   display: block;
+  width: 20%;
 }
 .social-icons ul {
   margin: 0;
@@ -2305,7 +2306,6 @@ hr.large {
 float: right;
 }
 .search {
-  width: 20%;
   float: right;
 }
 .post-next a,
