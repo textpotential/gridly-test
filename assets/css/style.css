@@ -2306,6 +2306,7 @@ float: right;
 }
 .search {
   width: 20%;
+  float: right;
 }
 .post-next a,
 .post-prev a {
