@@ -2305,8 +2305,9 @@ hr.large {
 .social-search {
 float: right;
 }
-.search {
+.search1 {
   float: right;
+  background-color: transparent;
 }
 .post-next a,
 .post-prev a {
